@@ -1,0 +1,94 @@
+/* Eliminar comportamento padrao do Html */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* pre-definicoes */
+.col-1{ width:8.33%; }
+.col-2{ width:16.66%; }
+.col-3{ width:25%; }
+.col-4{ width:33.33%; }
+.col-5{ width:41.66%; }
+.col-6{ width:50%; }
+.col-7{ width:58.33%; }
+.col-8{ width:66.66%; }
+.col-9{ width:75%; }
+.col-10{ width:83.33%; }
+.col-11{ width:91.66%; }
+.col-12{ width:100%; }
+/* comportamento tabela */
+.row{ display: table;}
+.col{
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: contents;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.col-item{
+    margin-top: 4%;
+    width: 30%;
+}
+
+.input-item {
+    height: 4%;
+    font-size: inherit;
+    border: 1%;
+    padding: 0.3%;
+}
+
+.container {
+    width: 55%;
+    height: 65%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-title{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+h1{
+    width: inherit !important;
+    font-size: 400%;
+}
+
+.login-button{
+    margin-top: 6%;
+    width: 31%;
+    height: 10%;
+    border-radius: 15px;
+    border: 0;
+    background-color: orange;
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-image: linear-gradient(rgb(0 0 0/30%) 0 0);
+}
+
+.wrong-password-text{
+    color: red;
+}
